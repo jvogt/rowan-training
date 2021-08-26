@@ -1,0 +1,17 @@
+{
+  "name": "six-months-to-live",
+  "version": "1.0.0",
+  "description": "Hello world app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "foobar": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "font-ascii": "^1.2.1"
+  }
+}
