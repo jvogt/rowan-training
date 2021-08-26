@@ -5,7 +5,7 @@ var formPhrase = require('font-ascii').default;
 
 app.get('/hello-world', function (req, res) {
   console.log(req.headers)
-  res.end( formPhrase('Awesome Phrase') + '\n' );
+  res.end( formPhrase('Awesome Phrase date:' + Date.now()) + '\n' );
 })
 
 app.get('/six-months', function (req, res) {
